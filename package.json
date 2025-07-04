@@ -1,0 +1,36 @@
+{
+  "name": "@venepagos/payment-sdk",
+  "version": "1.0.0",
+  "description": "SDK oficial de VenePagos para integrar pagos en aplicaciones web",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Build not required for this SDK\"",
+    "prepublishOnly": "echo \"Preparing for publish\""
+  },
+  "keywords": [
+    "venepagos",
+    "payments",
+    "venezuela",
+    "sdk",
+    "pasarela",
+    "pagos"
+  ],
+  "author": "Mario Gutierrez",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marioagutierrez/venepagos-sdk",
+    "directory": "sdk"
+  },
+  "homepage": "https://venepagos.com.ve",
+  "bugs": {
+    "url": "https://github.com/marioagutierrez/venepagos-sdk/issues"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ]
+}

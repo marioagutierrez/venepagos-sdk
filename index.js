@@ -9,7 +9,7 @@ class VenePagosSDK {
    * Inicializa el SDK de VenePagos
    * @param {Object} config - Configuración del SDK
    * @param {string} config.apiKey - API Key de VenePagos (debe comenzar con 'vp_')
-   * @param {string} [config.baseUrl='https://venepagos.com.ve'] - URL base de la API
+   * @param {string} [config.baseUrl='https://www.venepagos.com.ve'] - URL base de la API
    * @param {boolean} [config.sandbox=false] - Usar entorno de pruebas
    */
   constructor(config) {
@@ -22,7 +22,7 @@ class VenePagosSDK {
     }
 
     this.apiKey = config.apiKey;
-    this.baseUrl = config.baseUrl || 'https://venepagos.com.ve';
+    this.baseUrl = config.baseUrl || 'https://www.venepagos.com.ve';
     this.sandbox = config.sandbox || false;
     
     // Estado interno para manejar ventanas de pago

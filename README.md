@@ -23,13 +23,13 @@
 ## 📦 Instalación
 
 ```bash
-npm install @venepagos/payment-sdk
+npm install venepagos
 ```
 
 O usando yarn:
 
 ```bash
-yarn add @venepagos/payment-sdk
+yarn add venepagos
 ```
 
 Para uso directo en el navegador:
@@ -159,7 +159,7 @@ function PagoComponent() {
         amount: 49.99,
         currency: 'USD'
       });
-    
+  
       setResult(resultado.paymentResult);
     } catch (error) {
       console.error('Error:', error);
@@ -173,7 +173,7 @@ function PagoComponent() {
       <button onClick={handlePago} disabled={loading}>
         {loading ? 'Procesando...' : 'Pagar $49.99'}
       </button>
-    
+  
       {result && result.success && (
         <div className="success">
           ¡Pago exitoso! Referencia: {result.reference}

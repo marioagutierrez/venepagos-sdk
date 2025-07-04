@@ -57,7 +57,7 @@ import VenePagosSDK from '@venepagos/payment-sdk';
 // Inicializar el SDK
 const venepagos = new VenePagosSDK({
   apiKey: 'vp_tu_api_key_aqui',
-  baseUrl: 'https://venepagos.com.ve', // Opcional
+  baseUrl: 'https://www.venepagos.com.ve', // Opcional
   sandbox: false // Opcional: true para pruebas
 });
 ```
@@ -550,7 +550,6 @@ async function openPayment(amount) {
 - **Documentación**: [https://docs.venepagos.com.ve](https://venepagos.com.ve)
 - **Issues**: [GitHub Issues](https://github.com/marioagutierrez/venepagos-sdk/issues)
 - **Email**: soporte@venepagos.com.ve
-- **Discord**: [Comunidad VenePagos](https://discord.gg/venepagos)
 
 ## 📄 Licencia
 

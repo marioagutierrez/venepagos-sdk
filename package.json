@@ -1,6 +1,6 @@
 {
   "name": "venepagos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SDK oficial de VenePagos para integrar pagos en aplicaciones web",
   "main": "index.js",
   "types": "index.d.ts",
